@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM DAY 02</title>
+</head>
+
+<body>
+    <p>Nombre del cliente:</p>
+    <input type="text" id="name">
+
+    <p>Material de la caja :</p>
+    <select name="material" id="material">
+        <option value="Madera">Madera</option>
+        <option value="Cartón">Cartón</option>
+        <option value="Adamantium">Adamantium</option>
+        <option value="Lana">Lana</option>
+        <option value="Algodón de azúcar">Algodón de azúcar</option>
+        <option value="H2O">H2O</option>
+    </select>
+
+    <p>Seleccione una dimensión para su caja:</p>
+    <input type="radio" name="box-size" id="size1">
+    <label for="size">Pitufo</label>
+    <br>
+    <input type="radio" name="box-size" id="size2">
+    <label for="size">Humano</label>
+    <br>
+    <input type="radio" name="box-size" id="size3">
+    <label for="size">Orco level 75</label>
+
+    <p>Comentarios:</p>
+    <textarea name="" id="comments" cols="30" rows="10" placeholder="Por favor..."></textarea>
+    <br>
+    <br>
+    <button id="send">Enviar</button>
+
+    <p id="result"></p>
+
+    <p>Introduce un número entre el 0 y el 5 ambos incluidos, luego intenta adivinarlo </p>
+    <input type="number" name="" id="secretNum" placeholder="Introduce un número">
+    <br>
+    <br>
+    <button id="evaluate">Evaluar</button>
+    <br>
+    <p id="winner">Adivina el numero</p>
+    <input type="number" name="" id="result2">
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
