@@ -42,8 +42,9 @@ evaluate.onclick = () => {
         result2.value = ""
     }    
     if (rounds === 4) {
-        result2.value = "Has fallado el número"
         secretNum.style.display = "block"
+        winner.textContent = "Has fallado el número"
+        result2.style.display = "none"
     }
     if (result2.value == secretNum.value && rounds > 0) {
         result2.style.display = "none"
